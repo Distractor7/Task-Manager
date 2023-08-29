@@ -1,0 +1,311 @@
+.register-label,
+.login-label {
+  display: block;
+}
+
+.register-input,
+.login-input {
+  width: 100%;
+  box-sizing: border-box;
+}
+
+/* Login in styling */
+.login-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.login-title {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+.login-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 300px;
+  padding: 2rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.login-label {
+  margin-bottom: 0.5rem;
+}
+
+.login-input {
+  padding: 0.5rem;
+  margin-bottom: 1rem;
+  border-radius: 3px;
+  border: 1px solid #ccc;
+}
+
+.login-button {
+  padding: 0.5rem;
+  margin-top: 1rem;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.login-button:hover {
+  background-color: #0069d9;
+}
+
+.login-message {
+  margin-top: 1rem;
+  color: #dc3545;
+  font-weight: bold;
+}
+
+/* Register Component */
+
+.register-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.register-title {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+.register-form {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  width: 300px;
+  padding: 2rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.register-label {
+  margin-bottom: 0.5rem;
+}
+
+.register-input {
+  padding: 0.5rem;
+  margin-bottom: 1rem;
+  border-radius: 3px;
+  border: 1px solid #ccc;
+}
+
+.register-button {
+  padding: 0.5rem;
+  margin-top: 1rem;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.register-button:hover {
+  background-color: #0069d9;
+}
+
+.register-message {
+  margin-top: 1rem;
+  color: #dc3545;
+  font-weight: bold;
+}
+
+/* Register and Login Displayed Side by Side */
+
+.app {
+  display: flex;
+  justify-content: center;
+}
+
+.app-column {
+  display: inline-block;
+  margin: 1rem;
+  vertical-align: top;
+  width: 300px;
+  margin: 50px;
+}
+
+/* To Do Stylings */
+
+.tasks-container {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  margin-top: 35px;
+  margin-bottom: 20px;
+  border: solid black;
+  padding: 50px;
+}
+
+.task-item {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+button {
+  background-color: #4caf50;
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 14px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 4px;
+  transition-duration: 0.4s;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+.update-button {
+  background-color: #008cba;
+}
+
+.update-button:hover {
+  background-color: #007ab8;
+}
+
+.delete-button {
+  background-color: #f44336;
+}
+
+.delete-button:hover {
+  background-color: #da190b;
+}
+
+.see-tasks-button {
+  background-color: #555555;
+}
+
+.see-tasks-button:hover {
+  background-color: #444444;
+}
+
+.add-task-button {
+  background-color: #4caf50;
+}
+
+.logout-button {
+  background-color: #f44336;
+}
+
+.logout-button:hover {
+  background-color: #da190b;
+}
+
+.editBtn {
+  background-color: rgb(27, 167, 255);
+  margin-left: 50px;
+  padding: 7px;
+}
+
+.deleteBtn {
+  background-color: rgb(27, 167, 255);
+  padding: 7px;
+}
+
+.editBtn:hover {
+  background-color: rgb(185, 132, 253);
+}
+
+.deleteBtn:hover {
+  background-color: rgb(185, 132, 253);
+}
+
+/* Input form stylings */
+
+/* Form Styles */
+.form {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 600px;
+  margin: 0 auto;
+  margin-top: 25px;
+}
+
+/* Form Labels */
+.form label {
+  width: 100%;
+  font-size: 14px;
+  margin-bottom: 5px;
+  color: #444;
+}
+
+/* Form Inputs */
+.form input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  border: none;
+  background-color: #f5f5f5;
+  color: #444;
+}
+
+/* Form Input Focus */
+.form input:focus {
+  outline: none;
+  box-shadow: 0 0 5px #aaa;
+}
+
+/* Form Submit Button */
+.form button {
+  display: block;
+  margin: 0 auto;
+  padding: 10px 20px;
+  border-radius: 5px;
+  border: none;
+  background-color: #55b6ff;
+  color: #fff;
+  font-size: 16px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+/* Form Submit Button Hover */
+.form button:hover {
+  background-color: #4498d4;
+}
+
+/* Heading styling */
+
+.toDoList {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20;
+}
+
+/* App.css */
+.button-style {
+  background-color: #4caf50;
+  border: none;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 14px;
+  margin: 4px 2px;
+  cursor: pointer;
+  padding: 6px 12px;
+  border-radius: 4px;
+}
